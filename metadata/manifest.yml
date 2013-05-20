@@ -1,4 +1,4 @@
-Name: jhoumysql
+Name: v2mysql
 Cartridge-Short-Name: MYSQL
 Architecture: noarch
 Display-Name: MySQL Database 5.1
@@ -6,7 +6,7 @@ Description: "MySQL is a multi-user, multi-threaded SQL database server."
 Version: '5.1'
 Versions: [5.1]
 Cartridge-Version: 0.2.0
-Cartridge-Vendor: jhoumysql
+Cartridge-Vendor: redhat
 License: GPL
 Vendor: Oracle
 Categories:
@@ -32,9 +32,9 @@ Cart-Data:
 Suggests:
   - phpmyadmin-3.4
 Provides:
-  - mysql-5.1
-  - mysql 
-  - mysql-singleton-master
+  - v2mysql-5.1
+  - v2mysql 
+  - v2mysql-singleton-master
 Conflicts:
   - postgresql-8.4
 Publishes:
@@ -49,4 +49,3 @@ Endpoints:
     Private-Port:      3306
     Public-Port-Name:  DB_PROXY_PORT
 Install-Build-Required: false
-Source-Url: http://github.com/jhou1/v2mysql.git
