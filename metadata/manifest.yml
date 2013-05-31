@@ -6,7 +6,7 @@ Description: "MySQL is a multi-user, multi-threaded SQL database server."
 Version: '5.1'
 Versions: [5.1]
 Cartridge-Version: 0.2.0
-Cartridge-Vendor: jhoumysql
+Cartridge-Vendor: jhou
 License: GPL
 Vendor: Oracle
 Categories:
@@ -32,9 +32,9 @@ Cart-Data:
 Suggests:
   - phpmyadmin-3.4
 Provides:
-  - v2mysql-5.1
-  - v2mysql 
-  - v2mysql-singleton-master
+  - jhou-mysql-5.1
+  - jhou-mysql 
+  - jhou-mysql-singleton-master
 Conflicts:
   - postgresql-8.4
 Publishes:
