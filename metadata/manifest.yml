@@ -1,7 +1,7 @@
 Name: mysql
 Cartridge-Short-Name: MYSQL
 Architecture: noarch
-Display-Name: jhou mysql 5.1
+Display-Name: MySQL Database 5.1
 Description: "MySQL is a multi-user, multi-threaded SQL database server."
 Version: '5.1'
 Versions: [5.1]
@@ -32,8 +32,11 @@ Cart-Data:
 Suggests:
   - phpmyadmin-3.4
 Provides:
+  - mysql-5.1
+  - mysql 
+  - mysql-singleton-master
+  - jhou-mysql
   - jhou-mysql-5.1
-  - jhou-mysql 
   - jhou-mysql-singleton-master
 Conflicts:
   - postgresql-8.4
@@ -48,5 +51,4 @@ Endpoints:
     Private-Port-Name: DB_PORT
     Private-Port:      3306
     Public-Port-Name:  DB_PROXY_PORT
-Install-Build-Required: false
-Source-Url: git://github.com/jhou1/v2mysql.git
+Source-Url: https://github.com/jhou1/v2mysql.git
