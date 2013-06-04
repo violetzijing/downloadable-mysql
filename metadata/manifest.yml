@@ -51,4 +51,5 @@ Endpoints:
     Private-Port-Name: DB_PORT
     Private-Port:      3306
     Public-Port-Name:  DB_PROXY_PORT
+#Source-Url: https://github.com/jhou1/v2mysql.git
 Source-Url: https://github.com/jhou1/v2mysql.git
